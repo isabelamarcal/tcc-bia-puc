@@ -34,7 +34,7 @@ def update():
         password="<>"
     )
     
-    engine = create_engine('mysql+mysqlconnector://root:padtec@localhost:3306/tcc_bi_puc', echo=False)
+    engine = create_engine('mysql+mysqlconnector://root:<>@localhost:3306/tcc_bi_puc', echo=False)
 
     mycursor = mydb.cursor()
     #apaga o banco
